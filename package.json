@@ -1,0 +1,13 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System - root workspace for automation (Playwright) tests.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  }
+}

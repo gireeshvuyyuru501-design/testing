@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Management System - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="dashboard">
+  <main class="page page-dashboard">
+    <header class="topbar">
+      <h1 id="welcomeHeading">Welcome</h1>
+      <button id="logoutBtn" class="secondary">Log out</button>
+    </header>
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p>
+        Total students:
+        <strong id="studentCount">0</strong>
+      </p>
+      <a class="button-link" href="students.html">Go to Students</a>
+    </section>
+
+    <p id="statusMessage" class="status" role="status"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "student-management-backend",
+  "version": "1.0.0",
+  "description": "HTTP server (Node built-ins only) that serves the frontend and a students CRUD API.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
